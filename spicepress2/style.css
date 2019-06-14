@@ -1,0 +1,312 @@
+/*
+ Theme Name:   SpicePress Child Theme
+ Description:  A child theme of the Twenty Fifteen default WordPress theme
+ Author:       Fabrik
+ Template:     spicepress
+ Version:      1.0.0
+*/
+
+div.navbar-brand img {
+	float: left;
+    height: 250px;
+    width: 280px;
+	max-width: 100%;
+	margin-right: 10px;
+    padding: 10px 0px;
+}
+a.navbar-brand img{	
+}
+div.element.style {
+    color: #FFFFFF;
+	font-size: 18px;
+}
+.page-breadcrumb > li {
+    display:none;
+}
+div.site-branding-text {
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 12px 0;
+}
+div.navbar-header {
+	display:flex;	
+	}
+div.item {
+    background-image: url(https://sokdnipro.co.ua/wp-content/uploads/2018/09/espigas.jpg) !important;
+    width: 100%;
+    height: 90vh;
+    background-position: center center;
+    background-size: cover;
+    z-index: 0;
+}
+element.style {
+    background-color: rgba(0,0,0,0.30);
+}
+section.slider {
+    width: 100%;
+    height: 90vh;
+    background-position: center center;
+    background-size: cover;
+    z-index: 0;
+}
+h1.site-title {
+	font-size:23pt;
+	padding-top:30pt;
+	font-family: 'fontname'; 
+	float:right;
+	
+}
+div.navbar-header{
+	width:100%;
+	float:right;
+}
+p.site-description{
+	font-size:55pt;
+	font-family: 'fontname'; 
+}
+h1.widget-title{
+	font-size:35pt;
+	font-family: 'fontname';
+	color:grey !important;
+}
+#navbar a{
+	font-size:15pt;
+}
+.testimonial-section {
+    background: url(https://sokdnipro.co.ua/wp-content/uploads/2018/09/74b70e117240790040e9a0b48f4f91c3_XL.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+body {
+    color: yellow;
+}
+div.wp-custom-header img{
+	width:100%;
+}
+.navbar {
+    background-color: #FFFF00 !important;
+}
+@media (min-width: 768px) {
+.navbar-right {
+    float: right !important;
+    margin-right: -100px;
+}}
+@font-face { 
+  font-family: 'fontname'; 
+  src: url('https://sokdnipro.co.ua/wp-content/themes/spicepress2/fonts/et.ttf'); 
+font-weight: bold;
+font-style: normal;
+}
+.slide-text-bg1 {
+    background-color: rgba(18, 4, 1, 0.8);
+    float: left;
+    text-align: left;
+    margin: 0px;
+    padding: 17px 20px 20px 20px;
+    position: relative;
+    width: 80%;
+    z-index: 773;
+}
+body {
+    background: #f5f5f5;
+    color: black;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.9375rem;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 0;
+    background-attachment: fixed;
+    text-rendering: optimizeLegibility;
+}
+div.col-md-4.col-sm-6.col-xs-12{
+	font-size:12pt;
+	color: black;
+}
+h4.entry-title{
+	font-size:16pt;
+	font-family: 'fontname';
+}
+h3.entry-title{
+	font-size:26pt;
+}
+a.slide-btn-sm{
+	font-size:12pt;
+}
+div.slide-text-bg1 p{
+	font-size:10pt;
+}
+div.slide-text-bg1 h1{
+	font-size:20pt;
+}
+h1.white.wow.fadeInUp.animated.animated{
+	font-size:35pt;
+}
+div.media-body h4{
+	font-size:15pt;
+}
+.media-body p{
+	font-size:12pt;
+}
+@media (min-width: 1200px){
+.container {
+    width: 95%;
+	}}
+
+#menu-item-133{
+	box-shadow: inset 0 0 0 2px yellow;
+	border-radius:0px;
+}
+#menu-item-133 a:before{
+	content: "";
+	float:left;
+	width: 24px; /*эти размеры определяют область, которая будет «вырезана» из спрайта*/
+   height: 20px;
+   margin:0 5px 0 0;
+   background:url(https://sokdnipro.co.ua/wp-content/uploads/2018/10/en.png) no-repeat !important;
+	background-size:cover;
+}
+.page-breadcrumb > li a, .page-breadcrumb > li.active a {
+    color: #ce1b28;
+}
+div.sf{
+	position:absolute;
+	margin-top:10px;
+	margin-left:10px;
+	border-radius: 5px;
+	border-color:green;
+}
+input#txt, input#btn{
+	position:absolute;
+	z-index:1000;
+}
+input#txt{
+	height: 40px;
+    width: 335px;
+	font-size:22px;
+    
+}
+input#btn {
+	background: #FFD700;
+	border:5px;
+    width: 177px;
+    height: 40px;
+    color: #22579E;
+	font-size:14px;
+    font-weight: 700;
+    display: inline-block;
+	margin-left:335px;
+    outline: 5px;
+}
+@media (min-width: 300px) and (max-width: 1000px) {
+	div.navbar-header {
+	display:block;	
+	}
+h1.site-title {
+    font-size: 20px;
+	letter-spacing: 1.2px;
+    font-weight: 100;
+    line-height: 0.80;
+	}
+	p.site-description{
+		font-size: 45pt;
+	}
+	input#txt{
+		width:195px;
+	}
+	input#btn {
+    border: 5px;
+    width: 77px;
+    height: 40px;
+    color: #22579E;
+    font-weight: 700;
+    display: inline-block;
+	margin-left:195px;
+    padding: 10;
+    outline: 5px;
+}
+	div.wp-custom-header img{
+		height:70%;
+	}
+	.navbar-brand > img {
+    height:120px;
+	width:150px;
+}}
+@media (min-width: 1001px) and (max-width: 1300px) {
+h1.site-title {
+    font-size: 25px;
+	letter-spacing: 1.2px;
+    font-weight: 100;
+    line-height: 0.80;
+}}
+div.leaflet-popup-content {
+	width: 334px;
+    margin: 13px 19px;
+    line-height: 1.2 !important;
+}
+div.leaflet-container a{
+    font: 12px/1.2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+ td.column-1{
+	color:blue;
+	 font-weight:600;
+	height:15px;
+}
+th.column-1.sorting_disabled{
+	width:50px;
+}
+table td{
+	color:black;
+}
+table th{
+	color:black;
+}
+input[type="submit"]{
+	font-size:16pt;
+	font-weight:600;
+}
+.page-title h1 {
+	font-size:26pt;
+	font-weight:800;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin: 0px;
+    word-wrap: break-word;
+}
+ul{
+	font-size:12pt;
+}
+li#menu-item-58 a {
+    margin-right: 24px !important;	
+}
+li#menu-item-55 a{
+	font-weight:800;
+}
+form.search-form.input.search-submit, input[type="submit"] {
+    background-color: green !important;
+	font-size:16pt !important;
+}
+h3.widget-title{
+	display:none;
+}
+.page-title.page-id-22 h1{
+	display: none !important;
+}
+.col-md-6 {
+    width: 80%;
+}
+  a:active {
+    color: #ffffff;
+    background-color: blue;
+}
+img.wp-post-image {
+    max-width: 100px;
+    display: block;
+    height: auto;
+}
